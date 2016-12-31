@@ -1,0 +1,500 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="el-gr" lang="el-gr">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="??? ??????, ???????????, ????????????" />
+  <meta name="description" content="????? ???????????? ??? ???????????? 
+?.?.?.??????" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>e-barcode</title>
+  <link href="/templates/ja_purity/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/plugins/content/attachments1.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/attachments.css" type="text/css" />
+  <link rel="stylesheet" href="http://informatics.teicm.gr/modules/mod_zo-latestnews/css/css1.css" type="text/css" />
+  <link rel="stylesheet" href="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://informatics.teicm.gr/modules/mod_pixsearch/css/pixsearch_default.css" type="text/css" />
+  <style type="text/css">
+    <!--
+
+.osolCaptchaBlock{
+	width:100%;
+}
+.osolCaptchaBlock label{
+	
+}
+.osolCaptchaBlock table td{
+	
+	text-align:center;
+}
+
+.nsi-container div {margin-top: 0px}
+.nsi-container div {margin-top: 0px}
+.nsi-container div {margin-top: 0px}
+.nsi-container div {margin-top: 0px}
+.nsi-container div {margin-top: 0px}
+#ps_results{margin-left:0px;}
+    -->
+  </style>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/content/attachments_refresh.js"></script>
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="/plugins/system/tabber/js/script_mt11.js"></script>
+  <script type="text/javascript" src="/plugins/system/slider/js/script_mt11.js"></script>
+  <script type="text/javascript" src="http://informatics.teicm.gr/modules/mod_pixsearch/js/pixsearch.js"></script>
+  <script type="text/javascript">
+ var tabber_slide_speed = 500; var tabber_fade_in_speed = 500; var tabber_scroll = 0; var tabber_tablinkscroll = 1; var tabber_url = ''; var tabber_urlscroll = ''; var tabber_use_cookies = 0; var tabber_set_cookies = 0; var tabber_cookie_name = 'slider_5d71139ec3e40b8168ccc62614e6603a'; 
+ var slider_speed = 500; var slider_fade_in_speed = 1000; var slider_fade_out_speed = 400; var slider_scroll = 1; var slider_slidelinkscroll = 1; var slider_url = ''; var slider_urlscroll = ''; var slider_use_cookies = 0; var slider_set_cookies = 0; var slider_cookie_name = 'slider_5d71139ec3e40b8168ccc62614e6603a'; 
+window.addEvent("domready", function() {setSpecifiedLanguage("????????????","??????","?????????...","???????????...","?????? ??????????","??????????? ?????????","http://informatics.teicm.gr/index.php?option=com_search&amp;view=search","http://informatics.teicm.gr/","5","newest","any","",1,"??? ??? ?? ????????????",1,1,1);});
+  </script>
+  <!--[if lte IE 6]><script src="/plugins/system/J2top/fixed.js" type="text/javascript"></script><![endif]-->
+  <script type="text/javascript">if( MooTools.version >= '1.2' ) { 
+	window.addEvent('domready',function() {
+	new SmoothScroll({ duration: 250 }, window); 
+	var gototop = $('gototop');
+	gototop.setStyle('opacity','0').setStyle('display','block');
+	});
+	window.addEvent('scroll',function(e) {
+		var gototop = $('gototop');
+		if(Browser.Engine.trident4) {
+			gototop.setStyles({
+				'position': 'absolute',
+				'bottom': window.getPosition().y + 10,
+				'width': 100
+			});
+		}
+		gototop.fade((window.getScroll().y > 200) ? 'in' : 'out')
+	});
+} else {
+	window.addEvent('domready',function() {
+	$('gototop').setStyle('opacity','0');
+	new SmoothScroll();
+	var Change = new Fx.Style('gototop', 'opacity', {duration:250});
+	var scroll = window.getScrollTop();
+	if (scroll > 200){
+		if ($('gototop').getStyle('opacity','0') == 0){Change.start(1);$('gototop').setStyle('display','');}
+	}
+	});
+	window.addEvent('scroll',function(e) {
+	var scroll = window.getScrollTop();
+	var Change = new Fx.Style('gototop', 'opacity', {duration:250});
+	function Show(){ $('gototop').setStyle('display','');}
+	function Hide(){ setTimeout("$('gototop').setStyle('display','none')",250);}
+	if (scroll > 200){
+		if ($('gototop').getStyle('opacity','0') == 0){Show();Change.start(1);}
+	} else {
+		if ($('gototop').getStyle('opacity','1') == 1){Change.start(0);Hide();}
+	}
+	});
+}
+</script>
+
+<script>
+function myFunction() {
+    if(document.getElementById("myRadio1").checked==true){
+    var lbltext = document.getElementById('AEM').innerHTML;
+    document.getElementById("demo").innerHTML = lbltext;
+      }
+    else{
+    var lbltext = document.getElementById('Name').innerHTML;
+    document.getElementById("demo").innerHTML = lbltext;
+      }                   
+}
+</script>
+
+  <style type="text/css">
+.preload {display:none;}
+#gototop{
+
+width: 95px;
+height: 30px;
+
+position: fixed;
+ right: 3px;
+bottom:3px;
+z-index:1000000;
+}
+#gototop_link {
+text-decoration:none;
+border: 0 none;
+outline-width:0;
+}
+#gototop_button{
+cursor: pointer;
+
+background-color: transparent;
+color: #676767;
+font-size: 14px;
+height: 30px;
+padding-top: 7px;
+padding-right: 0px;
+padding-bottom:0px;
+padding-left: 7px;
+text-align: center;
+width: 95px;
+display: block;
+}
+#gototop_button:hover,#gototop_button:focus,#gototop_button:active, a:hover #gototop_button{
+color: #4D87C7;
+
+background-color: transparent;
+}
+</style>
+
+
+<link rel="stylesheet" href="http://informatics.teicm.gr/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="http://informatics.teicm.gr/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="http://informatics.teicm.gr/templates/ja_purity/css/template.css" type="text/css" />
+<link rel="stylesheet" href="http://informatics.teicm.gr/templates/ja_purity/css/mod_sbd_rollmenu.css" type="text/css" />
+
+<script language="javascript" type="text/javascript" src="http://informatics.teicm.gr/templates/ja_purity/js/ja.script.js"></script>
+
+<script language="javascript" type="text/javascript">
+var rightCollapseDefault='show';
+var excludeModules='38';
+</script>
+<script language="javascript" type="text/javascript" src="http://informatics.teicm.gr/templates/ja_purity/js/ja.rightcol.js"></script>
+
+<link rel="stylesheet" href="http://informatics.teicm.gr/templates/ja_purity/css/menu.css" type="text/css" />
+
+<link rel="stylesheet" href="http://informatics.teicm.gr/templates/ja_purity/css/ja-sosdmenu.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="http://informatics.teicm.gr/templates/ja_purity/js/ja.cssmenu.js"></script>
+
+<link rel="stylesheet" href="http://informatics.teicm.gr/templates/ja_purity/styles/header/blue/style.css" type="text/css" />
+
+<!--[if IE 7.0]>
+<style type="text/css">
+.clearfix {display: inline-block;}
+</style>
+<![endif]-->
+
+<style type="text/css">
+#ja-header,#ja-mainnav,#ja-container,#ja-botsl,#ja-footer {width: 1070px;margin: 0 auto;}
+#ja-wrapper {min-width: 1071px;}
+</style>
+
+</head>
+
+<body id="bd" class="fs3 FF" ><a id="top"></a>
+			<div class="preload">
+			</div>
+			<div id="gototop" style="display:none"><a id="gototop_link" href="#top" title="??????"><span id="gototop_button">??????</span></a></div>
+<a name="Top" id="Top"></a>
+<ul class="accessibility">
+	<li><a href="#ja-content" title="???????? ??? ???????????">???????? ??? ???????????</a></li>
+	<li><a href="#ja-mainnav" title="???????? ???? ????? ????????">???????? ???? ????? ????????</a></li>
+	<li><a href="#ja-col1" title="???????? ???? ????? ?????">???????? ???? ????? ?????</a></li>
+	<li><a href="#ja-col2" title="???????? ??? ??????? ?????">???????? ??? ??????? ?????</a></li>
+</ul>
+
+<div id="ja-wrapper">
+
+
+<div id="ja-containerwrap">
+<div id="ja-containerwrap2">
+	<div id="ja-container">
+
+<!-- BEGIN: HEADER -->
+<a name="top"></a>
+<div id="ja-headerwrap">
+	<div id="ja-header" class="clearfix" style="background: url(http://informatics.teicm.gr/templates/ja_purity/images/header/) no-repeat top right;">
+
+	<div class="ja-headermask">&nbsp;</div>
+
+
+			<h1 class="logo">
+			<a href="http://informatics.teicm.gr/index.php" ></a>
+		</h1>
+	
+
+			
+		<script type="text/javascript">var CurrentFontSize=parseInt('3');</script>
+		
+
+                <div id="ja-search">
+		
+
+
+<div id="pixsearch_tmpdiv" style="visibility:hidden;display:none;"></div>	
+		</div>
+ 
+	</div> 
+</div>
+
+
+<!-- BEGIN: MAIN NAVIGATION -->
+<div id="ja-mainnavwrap">
+	<div id="ja-mainnav" class="clearfix">
+	</div>
+</div>
+
+<!-- END: MAIN NAVIGATION -->
+<!-- END: HEADER -->
+
+	<div id="ja-container2" class="clearfix">
+
+		<div id="ja-mainbody" class="clearfix">
+
+		<!-- BEGIN: CONTENT -->
+		<div id="ja-contentwrap">
+		<div id="ja-content">
+
+			
+                       			<div id="ja-banner">
+				<!-- Joomla! extension version 1.0.7 for Joomla! 1.5.x -->
+<div id="jsn-is191" class="jsn-imageshow" style="overflow: hidden; width:100%; height:150px;"></div><script type="text/javascript" src="http://informatics.teicm.gr/modules/mod_jsn_imageshow_free/jsn_imageshow_free/swfobject.js"></script><script type="text/javascript" src="http://informatics.teicm.gr/modules/mod_jsn_imageshow_free/jsn_imageshow_free/swfobject_addon.js"></script><script type="text/javascript">
+	// <![CDATA[
+
+	var soImageShow = new SWFObject("http://informatics.teicm.gr/modules/mod_jsn_imageshow_free/jsn_imageshow_free/loader.swf", "imageshow", "100%", "150", "8", "e5e5e5");
+	soImageShow.addParam("wmode", "transparent");
+	soImageShow.addVariable("dataXml", "http://informatics.teicm.gr/modules/mod_jsn_imageshow_free/jsn_imageshow_free/xmldata18.xml");
+	soImageShow.addVariable("imageshowUrl", "http://informatics.teicm.gr/modules/mod_jsn_imageshow_free/jsn_imageshow_free/imageshow.swf");
+	soImageShow.addVariable("slideTiming", 4);
+	soImageShow.addVariable("repeatCount", "0");
+	soImageShow.addVariable("processOrder", "random");
+	soImageShow.addVariable("shadowImageUrl", "http://informatics.teicm.gr/modules/mod_jsn_imageshow_free/jsn_imageshow_free/images/shadow.png");
+	soImageShow.addVariable("captionText", "");
+	soImageShow.addVariable("captionFont", "Arial");
+	soImageShow.addVariable("captionSize", "12");
+	soImageShow.addVariable("captionColor", "0xFFFFFF");
+	soImageShow.addVariable("captionAlignment", "center");
+	soImageShow.addVariable("captionPosition", "bottom");
+	soImageShow.addVariable("captionPadding", "6,10");
+	soImageShow.addVariable("captionBgOpacity", "50");
+	soImageShow.addVariable("captionBgColor", "0x000000");
+	soImageShow.addVariable("showProgress", "1");
+	soImageShow.addVariable("overlayEffectName", "");
+	soImageShow.addVariable("overlayImageUrl", "");
+	soImageShow.addVariable("overlayImageOpacity", "75");
+	soImageShow.addVariable("overlayImageX", "100");
+	soImageShow.addVariable("overlayImageY", "100");
+	soImageShow.addVariable("motionTiming", "5");
+	soImageShow.addVariable("motionEase", "linear");
+	soImageShow.addVariable("moveRange", "3");
+	soImageShow.addVariable("scaleRange", "5");
+	soImageShow.addVariable("rotationRange", "0");
+	soImageShow.addVariable("transitionType", "random");
+	soImageShow.addVariable("transitionTiming", "3");
+	soImageShow.addVariable("transitionEase", "Sine");
+	soImageShow.addVariable("enableLink", "0");
+	soImageShow.addVariable("linkUrl", "");
+	soImageShow.addVariable("linkOpen", "_blank");
+	registerSWFObject( soImageShow, "jsn-is191" );
+
+	// ]]>
+</script>
+			</div>
+			
+			
+			<div class="componentheading">
+			Attendance
+			 </div>
+	
+	<table align="center" height="9" border="1" name="lessonsSubmit">
+<tr>
+	
+    <th><b>Day Lab</b></th>
+    <th><b>Time Lab</b></th>
+    <th><b>Teacher Barcode</b></th>
+    <th><b>Lesson Name</b></th>
+    <th><b>Presense Date</b></th>
+</tr>
+
+<?php
+
+
+include '/find_Values.php';
+if($_GET["searchType"]=='AEM')
+{
+$result=findPrWithAEM($_GET["search"]);
+}
+else
+{
+$result=findPrWithBarcode($_GET["search"]);
+}
+$i=1;
+while($row = mysql_fetch_array($result))
+  {
+  echo "<tr>";
+  	echo "<th>".$row['DayLab']."</th>";
+    echo "<th>".$row['TimeLab']."</th>";
+    echo "<th>".$row['TBarcode']."</th>";
+    echo "<th>".$row['LName']."</th>";
+    echo "<th>".$row['PresenseDate']."</th>";
+  echo "</tr>";
+  $i++;
+  }
+?>
+</table>	
+
+	
+	
+
+	
+	
+	
+	
+	
+			
+
+		</div>
+		</div>
+		<!-- END: CONTENT -->
+
+				<!-- BEGIN: LEFT COLUMN -->
+		<div id="ja-col1">
+					<div class="moduletable">
+<p>&nbsp;</p>		</div>
+			<div class="moduletable">
+					
+ <form action="" method="GET">
+<input onclick="myFunction()" type="radio" name="searchType" value="AEM" id="myRadio1"><label id="AEM">AEM</label><br>
+<input onclick="myFunction()" type="radio" name="searchType" value="Barcode" id="myRadio2"><label id="Barcode">Barcode</label><br>
+<label id="demo"></label><input type="search" name="search"><br>
+<input type="submit" value="Submit">
+</form>
+  					
+					
+					
+					
+<div class="nsi-container nsi-iconhoriz">
+   <div>
+ 
+  </div>
+</div>		</div>
+			<div class="moduletable">
+					
+<div class="nsi-container nsi-iconhoriz">
+   <div>
+    <ul>                               
+    </ul>
+  </div>
+</div>		</div>
+			<div class="moduletable">
+					
+<div class="nsi-container nsi-iconhoriz">
+   <div>
+    <ul>                
+        <li>
+        </li>
+                
+    </ul>
+  </div>
+</div>		</div>
+			<div class="moduletable">
+					
+<div class="nsi-container nsi-iconhoriz">
+   <div>
+    <ul>                
+        <li>
+        </li>
+                
+    </ul>
+  </div>
+</div>		</div>
+	
+		</div><br />
+		<!-- END: LEFT COLUMN -->
+		
+		</div>
+
+				<!-- BEGIN: RIGHT COLUMN -->
+		<div id="ja-col2">
+					<div class="jamod module" id="Mod49">
+			<div>
+				<div>
+					<div>
+
+										<h3 class="show"><span>sites</span></h3>
+									<div class="jamod-content">
+<div class="nsi-container nsi-iconhoriz">
+   <div>
+    <ul>                
+                      <li>
+                  <a href="http://anamorfosi.teiser.gr/ekp_yliko/index.html" target="_blank">
+                  <img src="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/images/anamorfosi.png"  alt="?????????? ???????" height="55" width="65" />
+                  <br />                                    </a>
+                </li>
+                
+                        <li>
+                  <a href="ftp://teiser.gr/pliroforiki/" target="_blank">
+                  <img src="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/images/OneButtonFTP.png"  alt="Icon Two" height="55" width="65" />
+                  <br />                                    </a>
+                </li>
+                
+                        <li>
+                  <a href="http://www.teiser.gr/icd/labs/index.php" target="_blank">
+                  <img src="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/images/touch-screen.png" title=" E-Labs" alt="Icon four" height="55" width="65" />
+                  <br />                                    </a>
+                </li>
+                
+                        <li>
+                  <a href="http://egram.teiser.gr" target="_blank">
+                  <img src="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/images/egram.gif" title="E-gram" alt="Egram" height="55" width="65" />
+                  <br />                                    </a>
+                </li>
+                
+                        <li>
+                  <a href="http://elearning.teiser.gr" target="_blank">
+                  <img src="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/images/elearning.gif" title="E-Learning" alt="Elearning" height="55" width="65" />
+                  <br />                                    </a>
+                </li>
+                
+                        <li>
+                  <a href="http://lib.teiser.gr" target="_blank">
+                  <img src="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/images/library.gif" title="Library" alt="??????????" height="55" width="65" />
+                  <br />                                    </a>
+                </li>
+                
+                        <li>
+                  <a href="http://mail.teiser.gr/" target="_blank">
+                  <img src="http://informatics.teicm.gr/modules/mod_ninja_simple_icons/assets/images/webmail.gif" title="WebMail" alt="WebMail" height="55" width="65" />
+                  <br />                                    </a>
+                </li>
+                
+             </ul>
+  </div>
+</div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		</div><br />
+		<!-- END: RIGHT COLUMN -->
+		
+
+	</div>
+<!-- BEGIN: FOOTER -->
+<div id="ja-footerwrap">
+<div id="ja-footer" class="clearfix">
+
+
+	
+This page created for educational purposes<br>
+Creator Christos I.Feizidis
+
+	
+</div>
+</div>
+<!-- END: FOOTER -->
+	</div>
+
+</div>
+</div>
+<!--<a class="gototop" href="#top"></a>-->
+
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
